@@ -3,9 +3,9 @@ const session = require('express-session');
 const path = require('path');
 const db = require('./database');
 
-const authRoutes = require('./routes/auth');
-const appointmentRoutes = require('./routes/appointments');
-const adminRoutes = require('./routes/admin');
+const authRoutes = require('./auth');
+const appointmentRoutes = require('./appointments');
+const adminRoutes = require('./admin');
 
 const app = express();
 
